@@ -1,0 +1,381 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    font-family: be vietnam, sans-serif;
+}
+header{
+    height: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+nav{
+    width: 550px;
+}
+header>div>nav>img {
+    display:none;
+}
+header div nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+ul li a{
+    text-decoration: none;
+    color: #242E52;
+}
+.fondoF .fondo3 a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    width: 150px ;
+    height: 50px;
+    border-radius: 35px;
+    background-color: #F3603B;
+    color: #E5E5E5;
+    border: #F3603B;
+}
+button:hover{
+    cursor: pointer;
+
+}
+main section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+main section div{
+    width: 530px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+main section div h1{
+    color: #232C50;
+    font-size: 58px;
+    /* margin-top: 130px; */
+}
+.segundotitulo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 300px;
+}
+main section div h2{
+    color: #232C50;
+    font-size: 38px;
+    margin-top: 55px;
+}
+main section div p{
+    font-size: 16px;
+    width: 66%;
+    line-height: 157.1%; 
+}
+.numeros{
+    color: #E5E5E5;
+    width: 70px;
+    height: 43px;
+    border-radius: 30px;
+    background-color: #F3603B;
+    padding-top:10px;
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    right: 550px;
+}
+.grises{
+    color: #B3B2B7;
+    font-size: 17px;
+    line-height: 26px;
+    position: relative;
+    top: 55px;
+    width: 450px;
+}
+.textos{
+    position: relative;
+    margin-bottom: 50px;
+}
+.texto2{
+    display: flex;
+    flex-wrap: wrap; 
+}
+h3{
+    color:#232C50;
+    font-size: 16px;
+    position: relative;
+    top: 53px;
+    line-height: 80px;
+}
+h4{
+    color:#232851;
+    font-size: 39px;
+    line-height: 114.6%;
+    margin-top:132px;
+    text-align: center;
+}
+.tajetas{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:109px;
+    position: relative;
+}
+.tarjeta{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    width: 450px;
+    height: 219px;
+    position: relative;
+}
+h5{
+    color:#3F4868;
+    font-size: 16px;
+    position: relative;
+    top: 100px;
+} 
+.parrafosT{
+    font-size: 16px;
+    color:#B3B2B7;
+    position: relative;
+    top: 130px;
+    padding-left: 21px;
+}
+.perfil{
+    position: absolute;
+    bottom: 153px;
+}
+.naranja{
+    background-color: #F3613C;
+    height: 224px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+.boton{
+    position: absolute;
+    top: 300px;
+}
+footer article{
+    height: 224px;
+    background-color: #F3613C;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer article p{
+    width: 500px;
+    color: #E5E5E5;
+    font-size: 40px;
+    margin: 5%;
+}
+footer article button{
+    width: 150px ;
+    height: 50px;
+    border-radius: 35px;
+    background-color: #FFFFFF;
+    color:#F3603B;
+    margin: 5%;
+}
+.fondoF{
+    height: 247px;
+    background-color: #1E1E26;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.letrasgeneral{
+    height: 180px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.fondo3{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.iconos{
+    color:#FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    font-size: 25px;
+}
+.letras{
+    color:#FFFFFF;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.botongo{
+    width: 63px;
+    height: 42px;
+}
+footer div .fondo3 p{
+    color: #8C8C94;
+    font-size: 12px;
+}
+input {
+    width: 243px;
+    height: 42px;
+    border-radius: 50px;
+}
+@media (max-width: 375px) {
+    header>div>nav>ul {
+        display:none;
+    }
+    header>div>button {
+        display:none;
+    }
+    header>div>nav>img {
+        position: absolute;
+        top: 15px;
+        left: 320px;
+        display: block;
+    }
+    .textos{
+        width: 373px;
+        align-items: center;
+    }
+    .queries {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+    .cajahead{
+        width: 320px;
+    }
+    .primeraSection{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .primeraSection div{
+        width: 320px;
+        align-items: center;
+        height: 360px;
+    }
+    .primeraSection div img{
+        width: 320px;
+    }
+    .primeraSection div h1{
+        
+        font-size: 40px;
+        text-align: center;
+    }
+    .primeraSection div p{
+        width: 320px;
+    }
+    .segundotitulo{
+        align-items: center;
+        height: 360px;
+    }
+    .segundotitulo h2{
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    .segundotitulo p {
+        width: 320px;
+    }
+    div .texto2{
+        width: 350px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .texto2 p{
+        position:static;
+    }
+    div .texto2 h3{
+        width: 250px;
+        left: 95px;
+        position: absolute;
+        top: 18px;
+    }
+    .textosh3{
+        display: flex;
+        margin-top: 298px;
+    }
+    .textoh3{
+        display: flex;
+        margin-top: 600px;
+    }
+    .numeros {
+        position: relative;
+        top: 150px;
+        position:static;
+    }
+    .grises {
+        top: 190px;
+        width: 300px;
+        right: 35px;
+        font-size: 18px;
+        padding-left: 25px;
+    }
+    .grises2{
+        color : #B3B2B7;
+    }
+    .tarjetasD{
+        display: none;
+    }
+    .articulo{
+        height: 360px;
+    }
+    .fondoF{
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        text-align: center;
+        height: 550px;
+    }
+    div .iconos3{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .fondo3 img{
+        width: 150px;
+    }
+    .fondo3{
+        align-items: center;
+        position: relative;
+    }
+    .iconos{
+        width: 355px;
+        font-size: 40px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .letrasgeneral{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    footer div .fondo3 p{
+        position: absolute;
+        top:520px;
+    }
+}
